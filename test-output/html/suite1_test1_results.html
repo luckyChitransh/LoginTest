@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">com.tests.LoginTests</th>
+	    <th id="testClassNameId" hidden="true">LoginTests</th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">C:\Users\Chitransh Shrivastav\eclipse-workspace\Assignment\testng.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">testng.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:00:58</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>6</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="red">FAIL</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+												
+											<tr>
+	<td class="time">1724508858356</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('6d7ea126-9985-489b-8c90-abc7cb2db85e','block');changeSingleIcon('span-6d7ea126-9985-489b-8c90-abc7cb2db85e');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.tests.LoginTests</div>
+	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-6d7ea126-9985-489b-8c90-abc7cb2db85e' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1724508858356</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validateFailedScenario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>6</font></span><br>
+						<span class="duration"><b>Duration: </b>0.268s</span><br>
+	</td>
+	<td class="result">
+						<div class="noCollapse" id="6d7ea126-9985-489b-8c90-abc7cb2db85e" style="display: block;">
+												The test validateFailedScenario is falied<br>
+												&lt;a title = &apos;Automation Test&apos; href = C:\Users\Chitransh Shrivastav\eclipse-workspace\Assignment//Screenshot//image785508123.png&gt;Screenshot&lt;/a&gt;<br>
+									<a href="javascript:toggleElement('exception-6d7ea126-9985-489b-8c90-abc7cb2db85e','block')" title="Click to expand/collapse"><b>java.lang.AssertionError: The following asserts failed:<br/>
+	expected [Failed: Your username is invalid!] but found [Your username is invalid!],<br/>
+	expected [Failed: Your username is invalid!] but found [Your username is invalid!],<br/>
+	expected [Failed: Your username is invalid!] but found [Your username is invalid!]</b></a><br/>
+		<div class="stackTrace" id="exception-6d7ea126-9985-489b-8c90-abc7cb2db85e">
+					org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)<br/>
+					org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)<br/>
+					com.tests.LoginTests.validateFailedScenario(LoginTests.java:88)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:568)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br/>
+					org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
+					org.testng.TestRunner.run(TestRunner.java:614)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
+					org.testng.TestNG.run(TestNG.java:1079)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						
+											<tr>
+	<td class="time">1724508840911</td>
+	<td class="header skipped" colspan="4" onClick="toggleElement('a19d4712-6ad0-4f26-8d24-f9bba98b4bbc','block');changeSingleIcon('span-a19d4712-6ad0-4f26-8d24-f9bba98b4bbc');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.tests.LoginTests</div>
+	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-a19d4712-6ad0-4f26-8d24-f9bba98b4bbc' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1724508840911</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validateFailedScenario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>6</font></span><br>
+						<span class="duration"><b>Duration: </b>1.745s</span><br>
+	</td>
+	<td class="result">
+		 									<div class="stackTrace" id="a19d4712-6ad0-4f26-8d24-f9bba98b4bbc" style="display: block;">
+												The test validateFailedScenario is skipped<br>
+									<a href="javascript:toggleElement('exception-a19d4712-6ad0-4f26-8d24-f9bba98b4bbc','block')" title="Click to expand/collapse"><b>java.lang.AssertionError: The following asserts failed:<br/>
+	expected [Failed: Your username is invalid!] but found [Your username is invalid!]</b></a><br/>
+		<div class="stackTrace" id="exception-a19d4712-6ad0-4f26-8d24-f9bba98b4bbc">
+					org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)<br/>
+					org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)<br/>
+					com.tests.LoginTests.validateFailedScenario(LoginTests.java:88)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:568)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
+					org.testng.TestRunner.run(TestRunner.java:614)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
+					org.testng.TestNG.run(TestNG.java:1079)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+					<tr>
+	<td class="time">1724508850510</td>
+	<td class="header skipped" colspan="4" onClick="toggleElement('bd263f95-67ed-40d6-b3d7-a36092f6f212','block');changeSingleIcon('span-bd263f95-67ed-40d6-b3d7-a36092f6f212');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.tests.LoginTests</div>
+	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-bd263f95-67ed-40d6-b3d7-a36092f6f212' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1724508850510</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validateFailedScenario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>6</font></span><br>
+						<span class="duration"><b>Duration: </b>0.256s</span><br>
+	</td>
+	<td class="result">
+		 									<div class="stackTrace" id="bd263f95-67ed-40d6-b3d7-a36092f6f212" style="display: block;">
+												The test validateFailedScenario is skipped<br>
+									<a href="javascript:toggleElement('exception-bd263f95-67ed-40d6-b3d7-a36092f6f212','block')" title="Click to expand/collapse"><b>java.lang.AssertionError: The following asserts failed:<br/>
+	expected [Failed: Your username is invalid!] but found [Your username is invalid!],<br/>
+	expected [Failed: Your username is invalid!] but found [Your username is invalid!]</b></a><br/>
+		<div class="stackTrace" id="exception-bd263f95-67ed-40d6-b3d7-a36092f6f212">
+					org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)<br/>
+					org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)<br/>
+					com.tests.LoginTests.validateFailedScenario(LoginTests.java:88)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:568)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br/>
+					org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
+					org.testng.TestRunner.run(TestRunner.java:614)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
+					org.testng.TestNG.run(TestNG.java:1079)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						
+												<tr>
+			<td class="time">1724508805646</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('a8571d77-0c08-4241-9ecd-6014e6517d31','block');changeSingleIcon('span-a8571d77-0c08-4241-9ecd-6014e6517d31');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.tests.LoginTests</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-a8571d77-0c08-4241-9ecd-6014e6517d31' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1724508805646</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validateSuccessfulLogin</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>1</font></span><br>
+						<span class="duration"><b>Duration: </b>4.701s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="a8571d77-0c08-4241-9ecd-6014e6517d31" style="display: block;">
+												The test validateSuccessfulLogin is passed<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1724508834084</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('2aae4090-d720-4e79-b2f1-3aa07a8526a7','block');changeSingleIcon('span-2aae4090-d720-4e79-b2f1-3aa07a8526a7');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.tests.LoginTests</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-2aae4090-d720-4e79-b2f1-3aa07a8526a7' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1724508834084</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validateBlankInput</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>5</font></span><br>
+						<span class="duration"><b>Duration: </b>3.262s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="2aae4090-d720-4e79-b2f1-3aa07a8526a7" style="display: block;">
+												The test validateBlankInput is passed<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1724508822145</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('e5cb852b-3f79-4a33-a4eb-8bdad153a9ce','block');changeSingleIcon('span-e5cb852b-3f79-4a33-a4eb-8bdad153a9ce');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.tests.LoginTests</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-e5cb852b-3f79-4a33-a4eb-8bdad153a9ce' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1724508822145</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validateInvalidUsername</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
+						<span class="duration"><b>Duration: </b>2.325s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="e5cb852b-3f79-4a33-a4eb-8bdad153a9ce" style="display: block;">
+												The test validateInvalidUsername is passed<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1724508816386</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('07ef5e67-485b-4256-93bd-8de410cbe6f5','block');changeSingleIcon('span-07ef5e67-485b-4256-93bd-8de410cbe6f5');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.tests.LoginTests</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-07ef5e67-485b-4256-93bd-8de410cbe6f5' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1724508816386</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validateInvalidPassword</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
+						<span class="duration"><b>Duration: </b>0.422s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="07ef5e67-485b-4256-93bd-8de410cbe6f5" style="display: block;">
+												The test validateInvalidPassword is passed<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1724508829525</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('6f71a7bc-971f-4e3c-8392-3f969849e3c4','block');changeSingleIcon('span-6f71a7bc-971f-4e3c-8392-3f969849e3c4');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.tests.LoginTests</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-6f71a7bc-971f-4e3c-8392-3f969849e3c4' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1724508829525</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validateInvalidCredentials</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>4</font></span><br>
+						<span class="duration"><b>Duration: </b>0.880s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="6f71a7bc-971f-4e3c-8392-3f969849e3c4" style="display: block;">
+												The test validateInvalidCredentials is passed<br>
+								</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

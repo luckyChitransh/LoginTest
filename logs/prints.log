@@ -1,0 +1,3 @@
+19:44:18.568 [main] INFO  com.pages.BrowserActions - waiting for the visibility of the element
+19:44:18.594 [main] INFO  com.pages.LoginPage - Error message Captured.
+19:44:19.138 [main] INFO  com.pages.BrowserActions - Browser Closed

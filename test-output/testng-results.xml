@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="2" total="10" passed="5" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The test validateSuccessfulLogin is passed]]>
+    </line>
+    <line>
+      <![CDATA[The test validateInvalidPassword is passed]]>
+    </line>
+    <line>
+      <![CDATA[The test validateInvalidUsername is passed]]>
+    </line>
+    <line>
+      <![CDATA[The test validateInvalidCredentials is passed]]>
+    </line>
+    <line>
+      <![CDATA[The test validateBlankInput is passed]]>
+    </line>
+    <line>
+      <![CDATA[The test validateFailedScenario is skipped]]>
+    </line>
+    <line>
+      <![CDATA[The test validateFailedScenario is skipped]]>
+    </line>
+    <line>
+      <![CDATA[The test validateFailedScenario is falied]]>
+    </line>
+    <line>
+      <![CDATA[<a title = 'Automation Test' href = C:\Users\Chitransh Shrivastav\eclipse-workspace\Assignment//Screenshot//image785508123.png>Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-24T19:43:20 IST" name="Suite" finished-at="2024-08-24T19:44:19 IST" duration-ms="58405">
+    <groups>
+    </groups>
+    <test started-at="2024-08-24T19:43:20 IST" name="Test" finished-at="2024-08-24T19:44:19 IST" duration-ms="58405">
+      <class name="com.tests.LoginTests">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:20 IST" name="navigateToURL" finished-at="2024-08-24T19:43:25 IST" duration-ms="4875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="validateSuccessfulLogin()[pri:1, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:25 IST" name="validateSuccessfulLogin" finished-at="2024-08-24T19:43:30 IST" duration-ms="4701" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The test validateSuccessfulLogin is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:30 IST" name="closeBrowser" finished-at="2024-08-24T19:43:30 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:30 IST" name="navigateToURL" finished-at="2024-08-24T19:43:36 IST" duration-ms="5663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="validateInvalidPassword()[pri:2, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:36 IST" name="validateInvalidPassword" finished-at="2024-08-24T19:43:36 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The test validateInvalidPassword is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateInvalidPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:36 IST" name="closeBrowser" finished-at="2024-08-24T19:43:37 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:37 IST" name="navigateToURL" finished-at="2024-08-24T19:43:42 IST" duration-ms="4951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="validateInvalidUsername()[pri:3, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:42 IST" name="validateInvalidUsername" finished-at="2024-08-24T19:43:44 IST" duration-ms="2325" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The test validateInvalidUsername is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateInvalidUsername -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:44 IST" name="closeBrowser" finished-at="2024-08-24T19:43:44 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:44 IST" name="navigateToURL" finished-at="2024-08-24T19:43:49 IST" duration-ms="4681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="validateInvalidCredentials()[pri:4, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:49 IST" name="validateInvalidCredentials" finished-at="2024-08-24T19:43:50 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The test validateInvalidCredentials is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateInvalidCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:50 IST" name="closeBrowser" finished-at="2024-08-24T19:43:50 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:50 IST" name="navigateToURL" finished-at="2024-08-24T19:43:54 IST" duration-ms="3294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="validateBlankInput()[pri:5, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:54 IST" name="validateBlankInput" finished-at="2024-08-24T19:43:57 IST" duration-ms="3262" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The test validateBlankInput is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBlankInput -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:57 IST" name="closeBrowser" finished-at="2024-08-24T19:43:57 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:43:57 IST" name="navigateToURL" finished-at="2024-08-24T19:44:00 IST" duration-ms="3265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method retried="true" signature="validateFailedScenario()[pri:6, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:44:00 IST" name="validateFailedScenario" finished-at="2024-08-24T19:44:02 IST" duration-ms="1745" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Failed: Your username is invalid!] but found [Your username is invalid!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Failed: Your username is invalid!] but found [Your username is invalid!]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.tests.LoginTests.validateFailedScenario(LoginTests.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[The test validateFailedScenario is skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFailedScenario -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:44:02 IST" name="closeBrowser" finished-at="2024-08-24T19:44:02 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:44:02 IST" name="navigateToURL" finished-at="2024-08-24T19:44:10 IST" duration-ms="7525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method retried="true" signature="validateFailedScenario()[pri:6, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:44:10 IST" name="validateFailedScenario" finished-at="2024-08-24T19:44:10 IST" duration-ms="256" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Failed: Your username is invalid!] but found [Your username is invalid!],
+expected [Failed: Your username is invalid!] but found [Your username is invalid!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Failed: Your username is invalid!] but found [Your username is invalid!],
+expected [Failed: Your username is invalid!] but found [Your username is invalid!]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.tests.LoginTests.validateFailedScenario(LoginTests.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[The test validateFailedScenario is skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFailedScenario -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:44:10 IST" name="closeBrowser" finished-at="2024-08-24T19:44:11 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:44:11 IST" name="navigateToURL" finished-at="2024-08-24T19:44:18 IST" duration-ms="7228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="validateFailedScenario()[pri:6, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:44:18 IST" name="validateFailedScenario" finished-at="2024-08-24T19:44:18 IST" duration-ms="268" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Failed: Your username is invalid!] but found [Your username is invalid!],
+expected [Failed: Your username is invalid!] but found [Your username is invalid!],
+expected [Failed: Your username is invalid!] but found [Your username is invalid!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Failed: Your username is invalid!] but found [Your username is invalid!],
+expected [Failed: Your username is invalid!] but found [Your username is invalid!],
+expected [Failed: Your username is invalid!] but found [Your username is invalid!]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.tests.LoginTests.validateFailedScenario(LoginTests.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[The test validateFailedScenario is falied]]>
+            </line>
+            <line>
+              <![CDATA[<a title = 'Automation Test' href = C:\Users\Chitransh Shrivastav\eclipse-workspace\Assignment//Screenshot//image785508123.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFailedScenario -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tests.LoginTests@8a589a2]" started-at="2024-08-24T19:44:18 IST" name="closeBrowser" finished-at="2024-08-24T19:44:19 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

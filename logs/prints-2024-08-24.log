@@ -1,0 +1,7 @@
+19:44:10.734 [main] INFO  com.pages.BrowserActions - waiting for the visibility of the element
+19:44:10.751 [main] INFO  com.pages.LoginPage - Error message Captured.
+19:44:11.126 [main] INFO  com.pages.BrowserActions - Browser Closed
+19:44:13.177 [main] INFO  com.pages.BrowserActions - Browser initialized
+19:44:13.247 [main] INFO  com.pages.BrowserActions - Browser maximized
+19:44:18.355 [main] INFO  com.pages.BrowserActions - Navigated to URL
+19:44:18.499 [main] INFO  com.pages.LoginPage - Clicked on Submit button.
