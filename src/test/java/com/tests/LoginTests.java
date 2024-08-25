@@ -27,7 +27,6 @@ public class LoginTests extends BrowserActions {
 	@AfterMethod
 	public void closeBrowser() {
 		browserActions.closeBrowser();
-		;
 	}
 
 	@Test(priority = 1, retryAnalyzer = com.utility.RetryAnalyzer.class)
